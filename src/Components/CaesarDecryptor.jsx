@@ -9,7 +9,7 @@ export const CaesarDecryptor = () => {
   const [mensajeDescifrado, setMensajeDescifrado] = useState('');
 
   const descifrarMensaje = () => {
-    const abecedario = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+    const abecedario = 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZ';
     const longitudAbecedario = abecedario.length;
 
     let mensajeDescifrado = '';
